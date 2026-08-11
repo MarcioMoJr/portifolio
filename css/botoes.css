@@ -1,0 +1,20 @@
+.botoes {
+    margin-top: 20px;
+}
+
+.botoes a {
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
+    transition: all 0.3s;
+}
+
+.botoes a:hover {
+    transform: translateY(-2px);
+    background: rgb(230, 230, 230);
+}

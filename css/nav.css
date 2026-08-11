@@ -1,0 +1,64 @@
+.nav {
+    position: fixed;
+    left: 26px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background: rgb(30, 30, 30);
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 40px;
+    padding: 18px 12px;
+    z-index: 100;
+}
+
+.nav a {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.nav a:hover {
+    color: rgb(240, 240, 240);
+}
+
+.nav a[href="#inicio"] {
+    color: rgb(14, 14, 14);
+    background: rgb(255, 255, 255);
+}
+
+#habilidades:target ~ .nav a[href="#inicio"],
+#projetos:target ~ .nav a[href="#inicio"],
+#curriculo:target ~ .nav a[href="#inicio"],
+#contato:target ~ .nav a[href="#inicio"] {
+    color: rgb(150, 150, 150);
+    background: none;
+}
+
+#habilidades:target ~ .nav a[href="#habilidades"] {
+    color: rgb(14, 14, 14);
+    background: rgb(255, 255, 255);
+}
+
+#projetos:target ~ .nav a[href="#portfolio"] {
+    color: rgb(14, 14, 14);
+    background: rgb(255, 255, 255);
+}
+
+#curriculo:target ~ .nav a[href="#curriculo"] {
+    color: rgb(14, 14, 14);
+    background: rgb(255, 255, 255);
+}
+
+#contato:target ~ .nav a[href="#contato"] {
+    color: rgb(14, 14, 14);
+    background: rgb(255, 255, 255);
+}

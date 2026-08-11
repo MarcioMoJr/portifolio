@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title> 
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cf288ba9ca.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/botoes.css">
+    <link rel="stylesheet" href="css/habilidades.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/curriculo.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+
+    <section id="inicio">
+        <h1>Marcio Marques</h1>
+        <p>Estudante de Desenvolvimento de Sistemas</p>
+        <p>Cursando o 1° ano do Ensino Médio Técnico na Etec de Cidade Tiradentes.</p>
+        <div class="botoes">
+            <a href="#projetos">Ver Meus Projetos</a>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="habilidades-conteudo">
+            <div class="habilidades-icone">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <div class="habilidades-texto">
+                <h2>Minhas Habilidades</h2>
+
+                <div class="lista-habilidades">
+                    <span class="habilidade">HTML</span>
+                    <span class="habilidade">CSS</span>
+                    <span class="habilidade">Java (lógica)</span>
+                    <span class="habilidade">Modelagem de Dados (MER/DER)</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Meu Portfólio</h2>
+
+        <div class="grade-projetos">
+
+            <a class="card" href="https://projeto-playlist-six.vercel.app/" target="_blank">
+                <div class="carrossel">
+                    <div class="trilho">
+                        <div class="slide"><img src="img/indexplaylist.png" alt=""></div>
+                        <div class="slide"><img src="img/ladygaga.png" alt=""></div>
+                        <div class="slide"><img src="img/theweekend.png" alt=""></div>
+                    </div>
+                </div>
+                <h3>Playlist</h3>
+                <p>Página de playlists por artista, com troca de paleta de cor para cada um e efeito de expansão dos cards ao passar o mouse.</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </a>
+
+            <a class="card" href="https://carros-antigos-gold.vercel.app/" target="_blank">
+                <div class="carrossel">
+                    <div class="trilho">
+                        <div class="slide"><img src="img/indexcarros.png" alt=""></div>
+                        <div class="slide"><img src="img/ferrari.png" alt=""></div>
+                        <div class="slide"><img src="img/opala.png" alt=""></div>
+                    </div>
+                </div>
+                <h3>Garagem dos Classicos</h3>
+                <p>Catálogo visual de carros clássicos, organizado em grid.</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </a>
+
+            <a class="card" href="https://projeto-viagem-two.vercel.app/" target="_blank">
+                <div class="carrossel">
+                    <div class="trilho">
+                        <div class="slide"><img src="img/indexviagens.png" alt=""></div>
+                        <div class="slide"><img src="img/japao.png" alt=""></div>
+                        <div class="slide"><img src="img/grecia.png" alt=""></div>
+                    </div>
+                </div>
+                <h3>Site de Viagens</h3>
+                <p>Página apresentando destinos de viagem, com layout simples e organizado.</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="curriculo">
+        <h2>Currículo</h2>
+        <div class="curriculo-conteudo">
+            <img src="img/curriculo1.png" alt="" class="curriculo-imagem">
+            <div class="botoes">
+                <a href="img/curriculo-marcio-marques.pdf" download> Baixar Curriculo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="contatos">
+            <a class="contato-item" href="https://mail.google.com/mail/?view=cm&fs=1&to=marciomojr.dev@gmail.com" target="_blank">
+                <i class="fa-regular fa-envelope"></i> marciomojr.dev@gmail.com
+            </a>
+            <a class="contato-item" href="https://github.com/MarcioMoJr" target="_blank">
+                <i class="fa-brands fa-github"></i> github.com/MarcioMoJr
+            </a>
+        </div>
+    </section>
+
+    <nav class="nav">
+        <a href="#inicio"><i class="fa-regular fa-house"></i></a>
+        <a href="#habilidades"><i class="fa-regular fa-face-smile"></i></a>
+        <a href="#projetos"><i class="fa-regular fa-folder"></i></a>
+        <a href="#curriculo"><i class="fa-regular fa-id-card"></i></a>
+        <a href="#contato"><i class="fa-regular fa-envelope"></i></a>
+    </nav>
+
+</body>
+</html>
